@@ -1,0 +1,23 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Aprendiendo de node 12 de Julio de 2025",
+  "main": "1-os-info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldoC6/AprendiendoNode.js.git"
+  },
+  "keywords": [
+    "curso",
+    "nodejs"
+  ],
+  "author": "Aldo Cavazos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AldoC6/AprendiendoNode.js/issues"
+  },
+  "homepage": "https://github.com/AldoC6/AprendiendoNode.js#readme"
+}
