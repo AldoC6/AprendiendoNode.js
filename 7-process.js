@@ -8,9 +8,8 @@
 
 // Podemos controlar los eventos del proceso
 // procces.on('exit', () => {
-    //Limpiar recursos 
-//})
+// Limpiar recursos
+// })
 
 // current working directory = nos dice desde donde estamos ejecutando el proceso
 console.log(process.cwd())
-
