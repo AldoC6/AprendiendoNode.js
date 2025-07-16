@@ -1,0 +1,17 @@
+{
+  "name": "clase3-api-rest",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev:1": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "zod": "4.0.5"
+  }
+}
