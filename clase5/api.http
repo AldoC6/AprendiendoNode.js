@@ -1,0 +1,38 @@
+### Recuperar todas las peliculas
+GET http://localhost:1234/movies
+
+### Recuperar una pelicula por ID
+GET http://localhost:1234/movies/e113b062-64e5-11f0-acec-6c2408a303b3
+
+### Recuperar peliculas por genero // TAREA!!
+GET http://localhost:1234/movies?genre=action
+
+### Crear una pelicula con POST
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+
+{
+    "title": "The God",
+    "year": 1985,
+    "director": "Francis Coppola",
+    "duration": 160,
+    "poster": "https://example.com/poster.jpg",
+    "rate": 9.2,
+    "genre": [
+        "Drama",
+        "Comedy",
+        "Horror"
+    ]                   
+}
+
+### Borrar una pelicula
+DELETE http://localhost:1234/movies/57a076c9-64c7-11f0-acec-6c2408a303b3
+
+### Actualizar una pelicula con PATCH //Tarea
+PATCH http://localhost:1234/movies/57a07390-64c7-11f0-acec-6c2408a303b3
+Content-Type: application/json
+
+{
+    "title": "Inception"
+}
